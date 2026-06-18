@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Majesté Mahouto Abdallah | Entrepreneur Numérique</title>
+
+<meta name="description" content="Portfolio officiel de Majesté Mahouto Abdallah, fondateur de MAJESTÉ PRESSE, Académie Majesté Presse et ERP MAJESTÉ PRESSE.">
+
+<link rel="icon" href="photo.webp">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#000;
+position:sticky;
+top:0;
+z-index:1000;
+border-bottom:1px solid #d4af37;
+}
+
+nav{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+}
+
+.logo{
+color:#d4af37;
+font-weight:bold;
+font-size:1.2rem;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:50px 20px;
+}
+
+.hero-content{
+max-width:1200px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.hero-image img{
+width:100%;
+max-width:450px;
+border-radius:20px;
+border:4px solid #d4af37;
+}
+
+.badge{
+color:#d4af37;
+font-weight:bold;
+}
+
+.hero h1{
+font-size:3.5rem;
+margin:15px 0;
+}
+
+.hero h2{
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.btns{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.btn{
+background:#d4af37;
+color:#000;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+color:#d4af37;
+font-size:2rem;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111;
+padding:25px;
+border-radius:15px;
+border:1px solid #333;
+}
+
+.timeline{
+border-left:3px solid #d4af37;
+padding-left:20px;
+}
+
+.timeline-item{
+margin-bottom:30px;
+}
+
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+border-top:1px solid #d4af37;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+}
+
+@media(max-width:768px){
+
+.hero-content{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero-image{
+display:flex;
+justify-content:center;
+}
+
+.hero h1{
+font-size:2.4rem;
+}
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+<nav>
+
+<div class="logo">
+MAJESTÉ MAHOUTO ABDALLAH
+</div>
+
+<ul>
+<li><a href="#apropos">À propos</a></li>
+<li><a href="#parcours">Parcours</a></li>
+<li><a href="#competences">Compétences</a></li>
+<li><a href="#projets">Projets</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="hero-image">
+<img src="photo.webp" alt="Majesté Mahouto Abdallah">
+</div>
+
+<div>
+
+<span class="badge">
+Fondateur de MAJESTÉ PRESSE
+</span>
+
+<h1>
+Majesté Mahouto Abdallah
+</h1>
+
+<h2>
+Entrepreneur Numérique • Imprimeur • Sérigraphe • Formateur
+</h2>
+
+<p>
+Fondateur de MAJESTÉ PRESSE, créateur de l'Académie Majesté Presse et concepteur de l'ERP MAJESTÉ PRESSE. Passionné par l'impression, le numérique, l'intelligence artificielle et la formation professionnelle.
+</p>
+
+<div class="btns">
+
+<a class="btn" href="https://majestepresse.com" target="_blank">
+MAJESTÉ PRESSE
+</a>
+
+<a class="btn" href="https://academie.majestepresse.com" target="_blank">
+ACADÉMIE
+</a>
+
+<a class="btn" href="https://erp.majestepresse.com" target="_blank">
+ERP
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="apropos">
+
+<h2 class="section-title">
+À PROPOS DE MOI
+</h2>
+
+<p>
+Je suis AKLOMBESSIKPE Mahouto Florentin, connu professionnellement sous le nom de Majesté Mahouto Abdallah. Mon parcours a commencé en informatique en 2013 avant de poursuivre une formation professionnelle en imprimerie, PAO et sérigraphie. Aujourd'hui, je dirige MAJESTÉ PRESSE et développe des solutions numériques destinées aux entreprises et aux apprenants.
+</p>
+
+</section>
+
+<section id="parcours">
+
+<h2 class="section-title">
+MON PARCOURS
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>2013</h3>
+<p>Formation en informatique (Windows, Word, Internet).</p>
+</div>
+
+<div class="timeline-item">
+<h3>2015 - 2019</h3>
+<p>Apprentissage professionnel en imprimerie, PAO et sérigraphie.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2021</h3>
+<p>Création de MAJESTÉ PRESSE.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2022 - 2025</h3>
+<p>Réalisation de projets professionnels et développement d'activités entrepreneuriales.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2026</h3>
+<p>Création de l'Académie Majesté Presse et de l'ERP MAJESTÉ PRESSE.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="competences">
+
+<h2 class="section-title">
+COMPÉTENCES
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Sérigraphie</h3>
+<p>Impression sur T-shirts, polos, casquettes et textiles.</p>
+</div>
+
+<div class="card">
+<h3>Imprimerie</h3>
+<p>Cartes, bâches, flyers, affiches et supports publicitaires.</p>
+</div>
+
+<div class="card">
+<h3>Graphisme</h3>
+<p>Photoshop, Canva, identité visuelle et conception graphique.</p>
+</div>
+
+<div class="card">
+<h3>Développement Web</h3>
+<p>Sites vitrines, plateformes éducatives et applications PWA.</p>
+</div>
+
+<div class="card">
+<h3>Intelligence Artificielle</h3>
+<p>ChatGPT, Gemini, Claude et Grok.</p>
+</div>
+
+<div class="card">
+<h3>Formation</h3>
+<p>Encadrement et formation des apprenants.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projets">
+
+<h2 class="section-title">
+MES PLATEFORMES
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🏢 MAJESTÉ PRESSE</h3>
+<p>Entreprise spécialisée en imprimerie et sérigraphie.</p>
+<a class="btn" href="https://majestepresse.com" target="_blank">Visiter</a>
+</div>
+
+<div class="card">
+<h3>🎓 Académie Majesté Presse</h3>
+<p>Plateforme de formation professionnelle.</p>
+<a class="btn" href="https://academie.majestepresse.com" target="_blank">Visiter</a>
+</div>
+
+<div class="card">
+<h3>⚙️ ERP MAJESTÉ PRESSE</h3>
+<p>Application de gestion d'entreprise et facturation.</p>
+<a class="btn" href="https://erp.majestepresse.com" target="_blank">Visiter</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">
+CONTACT
+</h2>
+
+<div class="contact">
+
+<p>📞 +229 01 96 09 76 44</p>
+
+<p>📧 majestepresse@gmail.com</p>
+
+<p>📍 Cotonou, Bénin</p>
+
+<p>
+<a class="btn" href="https://wa.me/22996097644">
+WhatsApp
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Majesté Mahouto Abdallah | Tous droits réservés
+</p>
+
+</footer>
+
+</body>
+</html>
